@@ -5,12 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -56,5 +54,4 @@
     "node": "9.2.0",
     "npm": "5.6.0"
   }
-
 }
