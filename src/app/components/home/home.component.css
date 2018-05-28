@@ -1,0 +1,21 @@
+body {
+  background-image: image("assets/png.png");
+}
+.fa-github-square{
+  color: fuchsia;
+}
+
+.fa-github-square:hover {
+  color: #fff;
+
+}
+
+
+.fa-arrow-alt-circle-down{
+  color: #ddd;
+}
+
+span {
+  color: fuchsia;
+}
+

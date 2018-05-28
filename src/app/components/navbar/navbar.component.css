@@ -1,0 +1,50 @@
+.navbar{
+display: flex;
+justify-content: center;
+background: #000;
+text-transform: uppercase;
+font-size:2em;
+
+
+}
+.navbar-brand {
+  font-size:1em;
+  margin-top: 3px;
+}
+.navbar a:hover{
+  color: fuchsia;
+
+}
+span {
+
+  color:fuchsia;
+}
+@media screen and (max-width: 1200px) {
+.navbar {
+display: flex;
+
+}
+button {
+position: absolute;
+top: 10px;
+right: 5%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.navbar {
+display: flex;
+justify-content: flex-start;
+font-size: 17px;
+
+}
+button {
+float: right;
+
+}
+}
+
+
+
+
+
